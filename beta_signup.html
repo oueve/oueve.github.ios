@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>About Us</title>
+    <title>Beta</title>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -49,17 +49,17 @@
       </div>
     </div>
       
-    <div class="container">
-      <h2 style="text-align: left">About us</h2>
-      <br>
-      <p>We are a team of high-schoolers living in Cupertino, CA. Be sure to check out our Facebook page for more information!</p>
-        
-      <br>
-      <h3>Derek Lee, CEO & Programmer</h3>
-      <p>add info here</p>
+    <h4 style="text-align: center">Sign up for the beta here! Submit the form, and we'll let you know if you're accepted soon.</h4>
       
-      <h3>Ethan Lin, CMO & PR</h3>
-      <p>add info here</p>
-
-      <h3>Cheryl Chui, CDO & UX/UI</h3>
-      <p>add info here</p></div>
+    <div class="container sign-container">
+      <form>
+          <h5>Your name:</h5> <input id="Name" name="Name" type="text" placeholder="Name"><br><br>
+          <h5>Your email:</h5> <input id="Email" name="Email" type="text" placeholder="Email Address"><br><br>
+          <h5>Your device:<br><sub>Enter the device you're on, e.g. 'iPhone 6S'</sub></h5> <input id="Device" name="Device" type="text" placeholder="Device"><br><br>
+          <h5>Why you want to try this app:<br><sub>Not required, but you're more likely to be accepted if you let us know why you're intrested in oueve.</sub></h5> <textarea id="Why" name="Why" placeholder="Why you're interested" rows="5" columns="35"></textarea><br><br>
+          <button id="ButtonSubmit" onclick="contactSend()" type="button">Sign up!</button>
+      </form>
+      <p class="button" style="text-align: center"></p>
+      </div>
+  </body>
+</html>

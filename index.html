@@ -1,126 +1,108 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Oueve</title>
-<style>
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
-@font-face{
-    font-family: "Montserrat";
-}
+    <title>oueve</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="mobilechange.js"></script>
+    <script src="email.js"></script>
+
+  </head>
     
-*{
-	maring: 0;
-	padding: 0;
-}
-body{
-	font-family: 'Open Sans', sans-serif;
-	background: #15ACE2;
-	color: #FFFFFF;
-}
-a:link{
-	color: #FFFFFF;
-	text-decoration: none;
-}
-a:active{
-	color: #FFFFFF;
-	text-decoration: none;
-}
-a:hover{
-	color: #FFFFFF;
-	text-decoration: none;
-}
-a:visited{
-	color: #FFFFFF;
-	text-decoration: none;
-}
-
-a.underline, .underline{
-	text-decoration: underline;
-}
-
-.bree-font{
-	font-family: 'Open Sans', sans-serif;
-}
-
-#content{
-	margin: 0 auto;
-	width: 960px;
-}
-
-.clearfix:after {
-	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	line-height: 0;
-	height: 0;
-}
- 
-.clearfix {
-	display: block;
-}
-
-#logo {
-	margin: 1em;
-	float: left;
-	display: bloack;
-}
-nav{
-	float: right;
-	display: block;
-}
-nav ul > li{
-	list-style: none;
-	float: left;
-	margin: 0 2em;
-	display: block;
-}
-
-#main-body{
-	text-align: center;
-}
-
-.enormous-font{
-	font-size: 10em;
-	margin-bottom: 0em;
-}
-.big-font{
-	font-size: 2em;
-}
-hr{
-	width: 25%;
-	height: 1px;
-	background: #15ACE2;
-	border: 0px;
-}
-
-
-
-</style>
-</head>
-<body>
-    <div id="content">
-    	<header>
-            <nav>
-            	<ul>
-                </ul>
-            </nav>
-        </header>
+  <body>
+    <nav class="navbar navbar-fixed-top" role="navigation">
+      <div data-spy="affix" data-offset-top="300">
+        <div class="navbar-header">
+            
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         
-        <div class="clearfix"></div>
-        
-        <div id="main-body">
-            <p class="enormous-font bree-font"> oueve </p>
-            <p class="big-font"> Hey! We're working on something great! </p>
-            <hr>
-            <p class="big-font"> Check back on us later! </p>
-            <p class="big-font">
-            <a href="about.html">about us :)</a>
-            </p>
+          
+            <a class="navbar-brand" href="index.html">
+            <svg class="icon icon-droplet"><use xlink:href="symbol-defs.svg#icon-droplet"></use></svg><text>oueve</text></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#sign-up">Sign up for the beta!</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="container jumbo-cont">
+        <h1>oueve</h1>
+        <h4>for iOS</h4>
+      </div>
+    </div>
+    <div id="sign-up">
+    <div class="sign-container"><a class="sign_up" href="beta_signup.html">
+      <h3>Interested in the beta?
+          <br>Click here!</h3>
+      </a>
+     <!-- <input id="Email" name="Email" type="text" placeholder="Email Address"><button id="ButtonSubmit" onclick="contactSend()" type="button">Sign up!</button>
+      <p class="button" style="text-align: center"></p> -->
+</div>
+      </div>
+    
+    <div class="container" id="features">
+      <h2>features</h2>
+      <div class="col-md-4">
+        <img src="plus.png" alt="plus">
+      </div>
+      <div class="col-md-8"><h4>Make keeping track of your water easy.</h4>
+        <p>Use one of our preset options to add water. You can select preset amounts, such as 360 mL or 960 mL, which reflect everyday sizes such as a water bottle. Or, you can add your own amounts. With oueve, it's not a hassle to remember how much water you drank.</p>
+      </div>
+      <br>
+      <div class="col-md-8"><h4>Watch your progress.</h4>
+        <p>Haven't been drinking a lot of water lately? With oueve, you'll be able to see a list of your drinking habits. You'll be able to tell if you need to drink more water more easily, as all of that information is in a single place.</p></div>
+    </div>
+      
+    <br><br>
+      
+    <div class="container body-text">
+      <h2>why use oueve?</h2>
+        <br>
+        <div class="col-md-4 border border-desktop"><img src="drop.png" alt="drop" height="160"><br>
+          <h4 style="text-align: center">Stay hydrated</h4>
+          <p style="text-align: justify">Did you know that your body is composed of about <b>60%</b> water? To maintain this healthy balance of fluids, Oueve helps keep track of your water consumption, so you'll know if you're on track.</p>
+        </div>
+        <div class="col-md-4 border border-desktop"><img src="kidney.png" alt="kidney" height="160"><br>
+          <h4 style="text-align: center">Help your kidneys</h4>
+          <p style="text-align: justify">Your body constantly needs water to flush out waste from your body. Oueve makes sure that you drink enough water to ensure that your body is working the way it should.</p>
+        </div>
+        <div class="col-md-4"><img src="" alt="perform" height="160"><br>
+          <h4 style="text-align: center">Perform better</h4>
+          <p style="text-align: justify">Your muscle tissue is composed of 75% water, so drinking water will boost your athletic performance!<sup><a href="http://breakingmuscle.com/health-medicine/10-life-changing-reasons-to-drink-more-water" target="_blank">1</a></sup></p>
         </div>
     </div>
-</body>
+    <br>    
+    <br>
+      
+    <footer class="footer">
+      <div class="container">
+        <div class="col-md-6 footer-brand">
+          oueve
+          <br>
+          <sub>© oueve</sub>
+        </div>
+        <div class="col-md-6 right">
+            <a href="https://www.facebook.com/Oueve.ios"><svg class="icon icon-facebook"><use xlink:href="symbol-defs.svg#icon-facebook"></use></svg><text>Our facebook page</text></a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

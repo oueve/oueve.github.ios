@@ -1,0 +1,124 @@
+.jumbotron {
+    background-color: #15ACE2;
+    text-align: center;
+    color: white;
+    min-height: 380px;
+    margin: 0;
+}
+body, .jumbotron, .footer-brand {
+    font-family: "Open Sans", sans-serif;
+}
+.footer-brand {
+    font-size: 150%;
+}
+.navbar {
+    
+    height: 17px;
+}
+.affix {
+    position: relative;
+    top: 0;
+    background-color: rgba(21, 172, 226, 0.5);
+}
+.navbar-brand {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding-left: 1em;
+    position: fixed;
+}
+a.fixed {
+    position: fixed;
+    bottom: 0.2em;
+}
+.navbar-toggle {
+    border-radius: 4px;
+    border: 1px solid white;
+}
+.icon-bar {
+    background-color: #808080;
+    border: 1px solid white;
+}
+.nav.navbar-nav.navbar-right, .navbar-brand {
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-right: 0.8em;
+}
+li a {
+    color: white;
+}
+ul.nav a:hover, ul.nav a:focus {
+    text-decoration: underline;
+    background-color: transparent;
+    color: white;
+}
+.container.jumbo-cont {
+    position: relative;
+    top: 6em;
+}
+footer {
+    color: #666;
+    background: #E0E0E0;
+    padding: 16px 0 18px 0;
+}
+.icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+}
+.icon.icon-droplet {
+    fill: currentColor;
+    background-color: #15ACE2;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-right: 1em;
+}
+button {
+    margin-left: 0.4em;
+}
+.icon.icon-facebook {
+    margin-right: 1em;
+}
+text {
+    position: relative;
+    top: -5px;
+}
+h2 {
+    text-align: center;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.border-desktop {
+    border-right: solid #DBDBDB 1px;
+}
+.border-mobile {
+    border-bottom: solid #DBDBDB 1px;
+}
+.right {
+    text-align: right;
+    border: 1px;
+}
+input, textarea {
+    background-color: transparent;
+    margin-left: 0.6em;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #15ACE2;
+}
+.sign-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 21em;
+    text-align: center;
+}
+#sign-up {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color: #C9C9C9;
+    margin: 0;
+}
+a.sign_up {
+    color: #9C9C9C;
+}
